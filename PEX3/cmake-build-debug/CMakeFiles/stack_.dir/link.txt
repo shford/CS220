@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/stack_.dir/Stack.c.o CMakeFiles/stack_.dir/library.c.o  -o stack_.exe -Wl,--out-implib,libstack_.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/PEX1.c
+PEX1.h
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/PEX1.h
+WordCloud.h
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/WordCloud.h
+
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/PEX1.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+string.h
+-
+ctype.h
+-
+
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/WordCloud.c
+WordCloud.h
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/WordCloud.h
+
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/WordCloud.h
+PEX1.h
+/cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/PEX1.h
+stdio.h
+-
+

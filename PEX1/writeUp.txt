@@ -1,0 +1,72 @@
+Hampton Ford
+
+PEX1 Summary of Important Changes:
+
+1) Add header file via #include "WordCloud.h" to file PEX1.c
+Line: 34
+
+2) Created and initialized int wordCount to 0 at beginning of CountWordsInFile(char* argFileName)
+Line: 43
+
+3) Changed condition in if statement to if (filePtr != NULL) from if (filePtr)
+Line: 50
+
+4) Changed the 2nd fscan() argument from "%"MAX_WORD_LENGTH_STRING"s" to "%s"
+Line: 55
+
+5) Not an error fix, but I deleted the #define STRING char* in PEX.h and replaced all usages of STRING with char* in PEX.c
+Line: N/A
+
+6) Not an error fix, but I deleted #define MAX_WORD_LENGTH_STRING "5" from file PEX.h
+
+7) In function int NumUniqueWords(WordCount* argWordCount), inside the while loop, changed i = 1; to i += 1
+Line: 138
+
+8) In function WordCount* CreateWordCountArray(int argNumberofWords), I changed malloc() argument to 
+(argNumberofWords+1)*sizeof(WordCount) from (argNumberofWords+1)*sizeof(int)
+Line: 156
+
+9) In function WordCount* ReadExclusionFile(char* argFileName), I changed int numWords = CountWordsInFile(argFileName); to int numWords = CountWordsInFile(argFileName) + 1;
+Line: 175
+
+10) Changed if (!filePtr) to if (filePrt == NULL)
+Line: 189
+
+11) Changed while (fscanf(filePtr, "%"MAX_WORD_LENGTH_STRING"s", charBuffer) == 1) to while (fscanf(filePtr, "%s", charBuffer) == 1)
+Line: 201
+
+12) Changed while (fscanf(filePtr, "%"MAX_WORD_LENGTH_STRING"s", charBuffer) == 1) to while (fscanf(filePtr, "%s ", charBuffer) == 1)
+Line: 248
+
+13) In function bool WordExistsInWordCount(WordCount* argWordCount, STRING argBuffer), added return false; to end of function
+Line: 281
+
+14) In void UpdateWordCount(WordCount* argWordCount, char* argBuffer), and after several hours, changed argWordCount[i].word = argBuffer; to strcpy(argWordCount[i].word, argBuffer);
+Line: 302
+
+15) In function int main(int argc, char* argv), changed if (argc <= 1) to if (argc < 4) to force users to enter the proper number of parameters
+Line: 389
+
+16) In file WordCloud.h, added #pragma once to top and added #include <stdio.h>
+Line: 8, 10
+
+17) Deleted #include <stdio.h> from WordCloud.c to clean up the file and prevent include problems
+
+18) In file WordCloud.c, replaced all uses of STRING with char*
+
+19) In int BuildWordCloud(WordCount* argWordCount, char* argFileName, int argNumWords), changed filePtr = fopen(argFileName, "a"); to filePtr = fopen(argFileName, "w+");
+Line: 24
+
+20) Changed if (argWordCount[i].count = 1) to if (argWordCount[i].count == 1)
+Line: 36
+
+21) Changed all occurences of STRING to char* in file PEX1.h
+
+22) Increased MAX_WORD_LENGTH from 5 to 40 to file PEX1.h
+Line: 9
+
+23) Added #define MAX_EXCLUDE_SIZE 500 to file PEX1.h
+Line: 10
+
+24) Changed typedef struct to typedef struct WordCount_type
+Line: 11

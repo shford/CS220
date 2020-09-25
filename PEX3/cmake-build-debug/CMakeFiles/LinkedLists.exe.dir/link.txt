@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/LinkedLists.exe.dir/PEX3.c.o CMakeFiles/LinkedLists.exe.dir/test_cases.c.o  -o LinkedLists.exe.exe -Wl,--out-implib,libLinkedLists.exe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libLinkedList.a  CMakeFiles/LinkedList.dir/PEX3.c.o CMakeFiles/LinkedList.dir/test_cases.c.o
+/usr/bin/ranlib.exe libLinkedList.a

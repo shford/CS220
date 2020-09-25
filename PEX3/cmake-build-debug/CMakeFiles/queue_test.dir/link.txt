@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/queue_test.dir/PEX3.c.o CMakeFiles/queue_test.dir/Stack.c.o CMakeFiles/queue_test.dir/Queue.c.o CMakeFiles/queue_test.dir/library.c.o CMakeFiles/queue_test.dir/math.c.o  -o queue_test.exe -Wl,--out-implib,libqueue_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

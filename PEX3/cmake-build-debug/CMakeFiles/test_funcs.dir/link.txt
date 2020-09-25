@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libtest_funcs.a  CMakeFiles/test_funcs.dir/PEX3.c.o CMakeFiles/test_funcs.dir/test_cases.c.o
+/usr/bin/ranlib.exe libtest_funcs.a

@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc liblibrary.c.a  CMakeFiles/library.c.dir/PEX3.c.o CMakeFiles/library.c.dir/Queue.c.o CMakeFiles/library.c.dir/Stack.c.o CMakeFiles/library.c.dir/test_cases.c.o
+/usr/bin/ranlib.exe liblibrary.c.a

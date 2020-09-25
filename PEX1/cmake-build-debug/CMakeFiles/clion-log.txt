@@ -1,0 +1,4 @@
+C:\Users\C22Steven.Ford\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/C22Steven.Ford/CLionProjects/CS220/PEX1/cmake-build-debug

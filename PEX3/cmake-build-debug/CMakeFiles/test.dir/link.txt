@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libtest.a  CMakeFiles/test.dir/test_cases.c.o
+/usr/bin/ranlib.exe libtest.a

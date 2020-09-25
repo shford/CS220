@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libPEX3.c.a  CMakeFiles/PEX3.c.dir/test_cases.c.o
+/usr/bin/ranlib.exe libPEX3.c.a

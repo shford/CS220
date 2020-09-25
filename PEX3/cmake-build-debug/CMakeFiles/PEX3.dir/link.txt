@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/PEX3.dir/PEX3.c.o CMakeFiles/PEX3.dir/Stack.c.o CMakeFiles/PEX3.dir/Queue.c.o CMakeFiles/PEX3.dir/library.c.o CMakeFiles/PEX3.dir/postfix_math_lib.c.o  -o PEX3.exe -Wl,--out-implib,libPEX3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
